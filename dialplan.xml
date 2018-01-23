@@ -1,0 +1,20 @@
+<DIALTEMPLATE>
+ <TEMPLATE MATCH="0" Timeout="1" User="Phone"/> 
+ <TEMPLATE MATCH="1,.........." Timeout="0" User="Phone"/> 
+ <TEMPLATE MATCH="9,1..........#" Timeout="0" User="Phone"/> 
+ <TEMPLATE MATCH="9,011*" Timeout="6" User="Phone"/> 
+ <TEMPLATE MATCH="9,0" Timeout="1" User="Phone"/> 
+ <TEMPLATE MATCH="9,11" Timeout="0" User="Phone" Rewrite="9911"/> 
+ <TEMPLATE MATCH="9,.11" Timeout="0" User="Phone"/> 
+ <TEMPLATE MATCH="9,101..............." Timeout="0" User="Phone"/> 
+ <TEMPLATE MATCH="9,10.............." Timeout="0" User="Phone"/> 
+ <TEMPLATE MATCH="9,10*" Timeout="6" User="Phone"/>  
+ <TEMPLATE MATCH="9,1.........." Timeout="0" User="Phone"/> 
+ <TEMPLATE MATCH="9,......." Timeout="0" User="Phone"/> 
+ <TEMPLATE MATCH=".....#" Timeout="0" User="Phone"/> 
+ <TEMPLATE MATCH="7.........." Timeout="0" User="Phone"/> 
+ <TEMPLATE MATCH="33........." Timeout="0" User="Phone"/> 
+ <TEMPLATE MATCH="44.........." Timeout="0" User="Phone"/> 
+ <TEMPLATE MATCH="91.........." Timeout="0" User="Phone"/> 
+ <TEMPLATE MATCH="*" Timeout="5"/> 
+</DIALTEMPLATE>
